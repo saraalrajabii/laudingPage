@@ -1,0 +1,19 @@
+*  {
+margin :0 ;
+padding: 0;
+}
+body{
+width: 100%; 
+background: black ; 
+
+}
+.circle{
+  float: left;
+  position: absolute;
+  clip-path:circle(700px at left);
+  clip: rect(0px,7000px,650px,0px);
+}
+.title{
+color:white;
+
+}
