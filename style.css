@@ -123,17 +123,101 @@ body{
     display: grid ; 
     grid-template-columns: 2fr 2fr  ;
     width: 100%; 
+    padding: 5px 5px 5px 5px ; 
 
 }
 .info{
-
 	color :white;
-	font-size: 50px ; 
+	font-size: 28px ; 
+  font-weight: bold;
 	 
 }
 .info2{
-    background: white ; 
+  background: white ; 
 	color :black;
-	font-size: 50px ; 
+	font-size: 20px ; 
+ border-radius: 50px;
+margin-top: 10px; 
+margin-bottom: 10px;
+margin-left:20px;
+}
+
+.info1{
+  margin-left:70px; 
+}
+.info4{
+  margin-left: 30px; 
+  font-size: 23px ;
+  font-weight: bold;
+  padding-top: 5px; 
+}
+
+.part3-containner{
+  background: #fff; 
+  text-align: center;
+
+}
+.title{
+  color: black; 
+  text-align: center;
+  font-size: 27px; 
+  padding: 10px 0px 10px ; 
+    font-weight: bold;
+}
+.inner-part3{
+  display: grid ; 
+  grid-template-columns: 2fr 2fr  ;
+}
+#div1{
+  background: black ; 
+  color:  white ; 
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 25px;
+  width: 50%; 
+  padding: 20px 10px 10px 10px; 
+    font-size: 20px; 
+
+}
+#div2{
+  margin-left: 90px; 
+  background: black ; 
+  color:  white ; 
+  border-radius: 20px;
+  text-align: center;
+  width: 50%; 
+  padding: 20px 10px 10px 10px; 
+    font-size: 20px; 
+}
+.inner-inner{
+  background: black ; 
+  color:  white ; 
+  border-radius: 20px;
+  padding: 20px 20px 10px 20px; 
  
+  text-align: center;
+  margin-top: 10px; 
+   margin-right: 
+    font-size: 20px; 
+    width: 100%;
+  max-width: 200px;
+  margin-left: 90px ; 
+ 
+}
+.title2{
+  color: black; 
+  text-align: center;
+  font-size: 16px; 
+  padding: 10px 10px 20px 10px ; 
+    font-weight: bold;
+}
+.part4-containner{
+   background: black ; 
+}
+.title-part4{
+   color:  white ;
+   text-align: center;
+ font-size: 29px; 
+ padding-top: 10px;
+ padding-bottom: 10px; 
 }
