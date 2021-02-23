@@ -116,7 +116,7 @@ body{
 	width: 100%; 
  	background: #fff; 
     display: grid ; 
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr ;
+    grid-template-columns: 2fr 2fr 1fr 4fr 1fr 2fr 2fr ;
 }
 .container4{
     background: black;
@@ -213,11 +213,53 @@ margin-left:20px;
 }
 .part4-containner{
    background: black ; 
+   width: 100%; 
 }
 .title-part4{
-   color:  white ;
-   text-align: center;
+  color:  white ;
+  text-align: center;
  font-size: 29px; 
  padding-top: 10px;
  padding-bottom: 10px; 
 }
+.doctor{
+width: 100%;
+max-width: 100px;
+height: 50%; 
+text-align: center;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px; 
+}
+.title-doctor-name{
+  color: #fff; 
+  text-align: center;
+  font-size: 24px; 
+  padding: 10px 0px 10px ; 
+  font-weight: bold;
+}
+.doctor-des{
+  color: #fff; 
+  text-align: center;
+  font-size: 16px; 
+  font-weight: bold;
+}
+.doctor-des-final{
+   color: #fff; 
+  text-align: center;
+  font-size: 16px; 
+  font-weight: bold;
+padding-bottom: 20px; 
+}
+
+.part5-containner{
+background: #fff; 
+}
+.title-part5{
+  text-align: center;
+  font-size: 24px; 
+  padding: 10px 0px 10px ; 
+  font-weight: bold;
+}
+
