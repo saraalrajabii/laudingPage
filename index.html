@@ -3,17 +3,251 @@
 <head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&display=swap" rel="stylesheet">
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta charset="ut-8">
-<link rel="stylesheet" type="text/css" href="style2.css"> 
-<title>eon Aligner|website</title>
-<meta name = "viewport" content="width=device-widt, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css"> 
+<title>eon Aligner</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+  /* Set the size of the div element that contains the map */
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+</style>
+<script>
+  // Initialize and add the map
+  function initMap() {
+    // The location of Uluru
+    const uluru = { lat: 31.97407748008217, lng: 35.88308529091942 };
+   
+    // The map, centered at Uluru
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 4,
+      center: uluru,
+    });
+    // The marker, positioned at Uluru
+    const marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+    });
+  }
+</script>
 </head>
 <body>
-	<div class ="container1">
-	<div  class ="cont"><img class ="circle" src="img/pic2.png" alt ="home page pic "></div>
-	<div  class ="cont"><p class="title"> | M |</br> </br>DR .MANSOUR DENTAL PRACTICE</p></div>
-	
-	</div>
+
+
+  <div class ="container-mobile-app">
+    <h3  class="head">| M |</h3>
+    <h3  class="head"> DR .MANSOUR DENTAL PRACTICE</h3>
+    <img  class ="imag-head" src="img/pic1.png" alt ="home page pic ">
+    <h1  class="text-mobile-app"> <bdi>أحدث تقنيات تقويم الأسنان <bdi> </h1>
+    <div class="cont-div-mobile">
+    <div class="div1-mobile"> <img class="logo-mobile" src="img/logo.png" alt ="logo pic "></div>
+      <div class ="div2"><h1 class="text2-mobile-app" >التقويم<br> الشفاف </h1></div>
+    </div>
+
+
+      <div class="div-mobile-info">
+       <p  class="div-info-text"><bdi>أحجز موعدك الان!<bdi> </p>
+      </div>
+    
+
+</div>
+
+
+
+
+
+
+
+
+  <!-- ********************************************************************** -->
+<div class ="container1">
+        <div  class ="cont"><img class ="circle" src="img/pic3.png" alt ="home page pic "></div>
+        <div  class ="cont2">
+        <p class="title"> | M |</br></br>DR .MANSOUR DENTAL PRACTICE  </br></p>
+        <h1  class="title-des"> <bdi>أحدث تقنيات تقويم الأسنان <bdi> </h1>
+        <div class="cont2-part2">
+          <div class="cont-image">
+             <img id="logo" src="img/logo.png" alt ="logo pic">
+        </div>
+        <div class="cont-image">
+            <p class="text2"> <bdi> التقويم<bdi></br> <bdi>الشفاف </bdi> </p>
+       </div>
+      
+       <div class ="cont-dev">
+        <p class="text"> <bdi> احجز موعدك الان! </bdi> </p>
+       </div>
+        </div> 
+      </div>
+         <div class="clear"></div>
+    </div>   
+    <!-- ///container1 -->
+
+   <div class="container2" > 
+      <h1 class="container2-title"> ميزات التقويم الشفاف </h1>
+      <div class="picture">
+       <div> <img  class="container2-image1" src="img/teeth1.png" alt ="logo pic">
+        <p class="container2-image1-text"> التقويم   <br>المعدني </p></div>
+      <div>  <img class="container2-image2"  src="img/teeth2.png" alt ="logo pic">
+        <img  class="container2-image1-logo" src="img/logo.png" alt ="logo pic"></div>
+    </div>
+      <div class ="container2-1">
+        <div class="grid-item"></div>
+       <div class="grid-item">
+       <img  class="true-false" src="img/true.png" alt ="true pic ">
+       </div>
+       <div class="grid-item"></div>  
+       <div class="grid-item">
+       <p class ="container2-1-text"> <bdi>علاج فعال<bdi> </p>
+       </div>
+       <div class="grid-item"></div>
+       <div class="grid-item">
+       <img class="true-false" src="img/true.png" alt ="true pic ">
+       </div>  
+       <div class="grid-item"></div> 
+     </div>
+     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+     <div class ="container3">
+      <div class="grid-item"></div>
+     <div class="grid-item">
+     <img  class="true-false" src="img/true.png" alt ="true pic ">
+     </div>
+     <div class="grid-item"></div>  
+     <div class="grid-item">
+     <p class ="container2-1-text"> <bdi> شفاف وخفي </bdi></p>
+     </div>
+     <div class="grid-item"></div>
+     <div class="grid-item">
+     <img class="true-false" src="img/false.png" alt ="true pic ">
+     </div>  
+     <div class="grid-item"></div> 
+   </div>
+   
+   <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+   <div class ="container3">
+    <div class="grid-item"></div>
+   <div class="grid-item">
+   <img  class="true-false" src="img/true.png" alt ="true pic ">
+   </div>
+   <div class="grid-item"></div>  
+   <div class="grid-item">
+   <p  class ="container2-1-text"> <bdi> يمكن ازالته للأكل </bdi> </p>
+   </div>
+   <div class="grid-item"></div>
+   <div class="grid-item">
+   <img class="true-false" src="img/false.png" alt ="true pic ">
+   </div>  
+   <div class="grid-item"></div> 
+ </div>
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+ <div class ="container3">
+  <div class="grid-item"></div>
+ <div class="grid-item">
+ <img  class="true-false" src="img/true.png" alt ="true pic ">
+ </div>
+ <div class="grid-item"></div>  
+ <div class="grid-item">
+ <p class ="container2-1-text"> <bdi>لطيف على اللثه <bdi> </p>
+ </div>
+ <div class="grid-item"></div>
+ <div class="grid-item">
+ <img class="true-false" src="img/false.png" alt ="true pic ">
+ </div>  
+ <div class="grid-item"></div> 
+</div>
+    </div>
+    <div class= "containner8">
+      <div class="part8-1"><p class="part6-1-info "> احجز موعد الاستشاره الأن   </p></div>
+      <div  class="part8-2"><p class="part6-2-info ">المواعيد محدودة  </p></div>
+
+      </div>
+   
+    <!-- ********************************************************** -->
+   
+    <div class="container5" > 
+      <h1 class="container5-title"> الاستشاره تشمل  </h1>
+      <div class="container5-1">
+        <div ></div>
+        <div class="container5-1-1" > <p class="container5-text1"> صوره الاشعه  </p></div>
+        <div  class="container5-1-2" ><p class="container5-text2">   مسح ثلاثي<br> الابعاد للاسنان   </p> </div>
+        <div></div>
+        </div>
+        <div  class="container5-2">
+<p class="container5-text2">   فيديو ثلالثي الابعاد لخطه علاج يعرض حركه الاسنان والنتيجه النهائيه لعلاجك  </p>
+</div>
+<p class="container5-text3"> <bdi> قيمه الاستشاره  50 دينار اردني والتي سوف يتم<br> خصمها من سعر العلاج الأجمالي حين اقتناؤه</bdi> </p>
+    </div>
+    <!-- ********************************************************** -->
+   
+    <div class="containner6">
+      <p class="containner6-title"> <bdi> طاقم طبي ذو خبره عاليه </bdi> </p>
+      <div class="containner6-part2">
+     
+       <!-- doctor1 -->
+        <div class="cont6-1">
+          <img class="doctor" src="img/doctor3.png" alt ="doctor-image ">
+          <p class="title-doctor-name"> <bdi> الدكتوره تالا مزاهره </bdi> </p>
+             <p class="doctor-des"> <bdi> أخصائيه طب اسنان الأطفال .</bdi> </p>
+              <p class="doctor-des"> <bdi> بكالوريوس طب الأسنان -الجامعه الأردنيه -2013</bdi> </p>
+             <p class="doctor-des "> <bdi>البورد الأردني في اختصاص أسنان الاطفال- 2019.</bdi>
+           </p>
+        </div>
+         <!-- doctor2 -->
+         <div class="cont6-2">
+          <img class="doctor" src="img/doctor1.png" alt ="doctor-image ">
+          <p class="title-doctor-name"> <bdi> الدكتوره ياسمين قديمات </bdi> </p>
+          <p class="doctor-des"> <bdi>بكالوريس طب اسنان -الجامعه الاردنيه -1999 </bdi> </p>
+          <p class="doctor-des"> <bdi> اختصاص تقويم الاسنان -البورد الاردني -2010 .</bdi> </p>
+          <p class="doctor-des"> <bdi> عضو جمعيه أخصائي تقويم الأسنان الاردنيين وعضو جمعيه الجراحين الملكيه في أيرلندا .</bdi> </p>
+        </div>
+          <!-- doctor3 -->
+          <div class="cont6-3">
+            <img class="doctor" src="img/doctor2.png" alt ="doctor-image ">
+     <p class="title-doctor-name"> <bdi> الدكتور منصور الطوره </bdi> </p>
+       <p class="doctor-des"> <bdi> بكالوريوس طب وجراحه الفم والاسنان </bdi> </p>
+        <p class="doctor-des"> <bdi>الجامعه الاردنيه -1998. </bdi> </p>
+       <p class="doctor-des"> <bdi>أكمل تعليمه وتدريبه في كافه مجالات طب الاسنان ، </bdi>
+     </p>
+    <p class="doctor-des"> <bdi>في مجالي زراعه و تجميل الأسنان </bdi> </p>
+          </div>
+    
+      </div>
+    </div>
+     <!-- ********************************************************** -->
+     <div class= "containner7">
+      <div>
+        <!--The div element for the map -->
+        <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhdSw1QzkXBrYnLSt3EF3izfHEhUj6LMc&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+       </div>
+
+       <div>
+        <p class="title-part7"> <bdi> الموقع وأوقات الدوام </bdi> </p>
+        <p class="des"> <bdi>عمان- الرابية </bdi> </p>
+        <p class="des"> <bdi> شارع عبد الله بن رواحه </bdi> </p>
+        <p class="des"> <bdi>مبنى 14  </bdi> </p>
+        <p class="des"> <bdi>فوق الخطوط الجويه العراقية و بنك الاردن  </bdi></p>
+        <p class="des"> <bdi>الطابق الثاني . </bdi>مبنى 14  </p>
+        <p class="des"> <bdi>  من السبت الى الخميس </bdi> </p>
+        <p class="des"> <bdi>10-7 مساء  </bdi> </p>
+       </div>
+    </div>
+    <!-- ********************************************************** -->
+
+
+    <div class= "containner8">
+      <div class="part8-1"><p class="part6-1-info "> <bdi>تواصل معنا هنا!</bdi> </p></div>
+      <div  class="part8-2"><p class="part6-2-info "> <bdi>لحجز الاستشاره لمعرفه المزيد </bdi> </p></div>
+
+      </div>
 </body>
 </html>
