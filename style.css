@@ -3,9 +3,11 @@
     padding: 0;
     }
     body{
- /* max-width: 1400px;
- margin:  0 auto; */
+max-width: 1400px;
+ margin:  0 auto; 
     background: black ; 
+    /* display: grid; 
+     grid-template-columns: 2fr 20fr 2fr ; */
     
     }
     .container-mobile-app{
@@ -122,9 +124,10 @@
     }
     .container2{
     background: #fff;
-    max-width: 100% ;
+   width: 100% ;
     height: auto;
     text-align: center;
+    align-items: center;
     position: relative;
     }
     .container2-title{
@@ -171,38 +174,61 @@
     bottom: 10%;
 }
 .container2-1{
-  padding-top: 5%;  
-   	width: 100%; 
-        background: #fff; 
-       display: grid ; 
-       grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr ;
-   
+    padding-top: 5%;  
+    width: 100%; 
+  
+    align-items: center;
+    background: #fff; 
+    display: grid ; 
+    grid-template-columns: 2fr 2fr 4fr 2fr 2fr  ;
     }
+   
    .true-false{
-       width: 30%;
-       height: 50%;
+       width: 50%;
+       height: auto;
+       padding: 10px;
    }
    .container2-1-text{
     font-family: 'Cairo', sans-serif;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
    }
    .container3{
 	width: 100%; 
  	background: #fff; 
     display: grid ; 
-    grid-template-columns: 2fr 2fr 1fr 4fr 1fr 2fr 2fr ;
+    grid-template-columns: 2fr 2fr 4fr 2fr 2fr  ;
+    align-items: center;
+  
 }
-.container4{
-	width: 100%; 
- 	background: #fff; 
-    display: grid ; 
-    grid-template-columns: 2fr 2fr 1fr 4fr 1fr 2fr 2fr ;
-   padding-bottom: 3%;
+.containner4{
+background: black;
+display: grid ; 
+grid-template-columns: 4fr 2fr ;
+    align-items: center;
+    padding: 20px;
 }
+.part4-1{
+    background: white;
+    border-radius: 40px;
+    width: 60%;
+margin-left: 30px;
+text-align: center;
+padding: 10px;
+font-family: 'Cairo', sans-serif;
+}
+.part4-2{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Cairo', sans-serif;   
+    color: white;
+}
+
+
+
 @media only screen and (max-width: 700px) {
     .container2-1-text{
-        font-size: 18px;
+        font-size: 10px;
     } 
     .picture{
         max-width: 100% ;
@@ -239,24 +265,7 @@
         margin-top: 20px;
 
      }
-   .container4-2{
-    padding: 20px 20px 20px 20px;
-    right:30%;
-    position: absolute;
-   }
-     .container4-1{
-position: absolute;
-background-color: white;
-color: black;
-border-radius: 50px;
-left: 30%;
-margin-top: 20px;
-padding: 20px 20px 20px 20px;
 
-     }
-     .container4-2{
-        position: absolute;
-     }
      .container5{
         background: #fff;
         padding-top: 60px;  
@@ -284,13 +293,14 @@ padding: 20px 20px 20px 20px;
         .container5-1-1{
             background: black;
             color: white;
-            padding: 20px 14px 20px 14px ;
+            padding: 15px 14px 15px 14px ;
             border-radius: 10px;
+            text-align: center;
             font-family: 'Cairo', sans-serif;
         }
         .container5-1-2{
             background: black;
-            padding: 20px 14px 20px 14px ;
+            padding: 15px 14px 15px 14px ;
             color: white;
            right:50px;
            font-family: 'Cairo', sans-serif;
@@ -301,8 +311,9 @@ padding: 20px 20px 20px 20px;
         .container5-text1{
             color: white;
             text-align: center;
+        
             font-family: 'Cairo', sans-serif;
-            padding: 20px 14px 20px 14px ;
+            padding: 30px 14px 14px 14px ;
             font-size: 30px;
         }
         .container5-text2{
@@ -330,6 +341,14 @@ padding: 20px 20px 20px 20px;
         }
         .containner6{
             padding-bottom: 30px;
+            align-items: center;  
+            text-align: center;
+            justify-content: center;
+        }
+        .cont6-1{
+            align-items: center;  
+            text-align: center;
+            justify-content: center;
         }
        .containner6-title{
            color: white;
@@ -342,11 +361,12 @@ padding: 20px 20px 20px 20px;
         grid-template-columns: 2fr 2fr 2fr  ;
         row-gap: 1em ;
         padding-top: 50px;
+        align-items: center;
        }
        .doctor{
         width: 50%;
-        height:  267px; 
-        margin-left: 80px;
+        height:  auto; 
+        align-items: center;
         }
         .title-doctor-name{
             color: #fff; 
@@ -392,7 +412,7 @@ padding: 20px 20px 20px 20px;
                 font-size: 12px; 
             }
             .container2-image1-text{
-                font-size: 12px;   
+                font-size: 10px;   
             }
             .container2-title{
                 font-size: 15px;
@@ -414,10 +434,7 @@ padding: 20px 20px 20px 20px;
             grid-template-columns: 2fr 2fr  ;
             background: white;
           }
-          .map{
-              width: 100%;
-              height: auto;
-          }
+         
           .title-part7{
             text-align: center;
             font-size: 40px; 
@@ -433,8 +450,9 @@ padding: 20px 20px 20px 20px;
 
          @media screen and (max-width: 839px) {
             .containner7{
-             
-                grid-template-columns: 2fr   ;
+                grid-template-columns: 4fr   ;
+              
+                margin: 0 auto;
             }
             .des{
                font-size: 20px; 
@@ -451,6 +469,7 @@ padding: 20px 20px 20px 20px;
             
          
          }
+        
          .part8-1{
              background: white;
              width: 30%;
@@ -465,8 +484,8 @@ padding: 20px 20px 20px 20px;
        position:absolute;
          }
          .part8-2{
-            width: 30%;
-         height: 100%;
+         
+         height: auto;
          left:60%;
        font-size: 20px;
        padding: 30px;
@@ -514,13 +533,15 @@ padding: 20px 20px 20px 20px;
 .cont-div-mobile{
     display: grid ; 
     text-align: center;
+   justify-content: center;
+   align-items: center;
     grid-template-columns: 2fr 2fr  ;
 
 }
 .logo-mobile{
     width: 70%;
-    height: 70%;
-   margin-bottom: 10px;
+    height: auto;
+   margin-bottom: 5px;
     margin-left: 90px;
 }
 .div-mobile-info{
