@@ -3,18 +3,18 @@
     padding: 0;
     }
     body{
-max-width: 1400px;
- margin:  0 auto; 
- 
-    /* display: grid; 
-     grid-template-columns: 2fr 20fr 2fr ; */
+   max-width: 1400px;
+      margin:  0 auto; 
+  
+    display: grid; 
+     grid-template-columns: 2fr 20fr 2fr ;
     
     }
     .container-mobile-app{
         width: 100%;
         background: black;
         margin:  0 auto; 
-        padding: 0 ;
+        padding-bottom: 20px ;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -124,20 +124,36 @@ max-width: 1400px;
     .clear{
         clear: both;
     }
+    .total{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
     .container2{
+      justify-content: center;
     background: #fff;
    width: 100% ;
     height: auto;
     text-align: center;
     align-items: center;
     position: relative;
+    
+    }
+    .line{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 160px;
+        width: 70%;
+    
     }
     .container2-title{
     color: black;
     text-align: center;
     font-size: 30px;
     font-family: 'Cairo', sans-serif;
-    padding-top: 30px;   
+    padding-top: 10px;   
+    padding-bottom: 20px;
     }
     
     .container2-image1{
@@ -186,14 +202,14 @@ max-width: 1400px;
     }
    
    .true-false{
-       width: 50%;
+       width: 50px;
        height: auto;
        padding: 10px;
    }
    .container2-1-text{
     font-family: 'Cairo', sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
    }
    .container3{
 	width: 100%; 
@@ -228,15 +244,7 @@ grid-template-columns: 4fr 3fr ;
 
 
 
-@media only screen and (max-width: 700px) {
-    .container2-1-text{
-        font-size: 10px;
-    } 
-    .picture{
-        max-width: 100% ;
-         width: 100%;
-        }
- }
+
 @media only screen and (max-width: 400px) {
         .picture{
         
@@ -342,11 +350,12 @@ grid-template-columns: 4fr 3fr ;
               color: black;
         }
         .containner6{
-            padding-bottom: 30px;
+            padding: 20px;
             background: black;
             align-items: center;  
             text-align: center;
             justify-content: center;
+            padding-bottom: 50px;
         }
         .cont6-1{
             align-items: center;  
@@ -362,13 +371,13 @@ grid-template-columns: 4fr 3fr ;
        .containner6-part2{
         display: grid ; 
         grid-template-columns: 2fr 2fr 2fr  ;
-        row-gap: 1em ;
+    
         padding-top: 50px;
         align-items: center;
        }
        .doctor{
-        width: 50%;
-        height:  auto; 
+        width: 200px;
+        height:  200px; 
         align-items: center;
         }
         .title-doctor-name{
@@ -394,6 +403,7 @@ grid-template-columns: 4fr 3fr ;
             .containner6-part2 {
                 grid-template-columns: 2fr ;
             }
+
           }
           @media screen and (max-width: 839px) {
             .container5-text2 {
@@ -415,7 +425,8 @@ grid-template-columns: 4fr 3fr ;
                 font-size: 12px; 
             }
             .container2-image1-text{
-                font-size: 10px;   
+                font-size: 8px;  
+                text-align: center; 
             }
             .container2-title{
                 font-size: 15px;
@@ -429,6 +440,23 @@ grid-template-columns: 4fr 3fr ;
             .circle{
                 width: 50%;
             }
+            body{
+                max-width: 1400px;
+                   margin:  0 auto; 
+                 display: grid; 
+                  grid-template-columns: 1fr 20fr fr ;
+                 
+                 }
+                 .true-false{
+                    width: 30px;
+                    height: auto;
+                 }
+                 .line{
+                    margin-left: 50px;
+                 }
+                 .container2-1-text{
+                    font-size: 15px;
+                } 
           }
 
 
@@ -464,37 +492,38 @@ grid-template-columns: 4fr 3fr ;
 
          .containner8{
              background: black;
-             padding: 40px 20px 40px 20px;
+             padding: 40px 40px 40px 40px;
             display: grid ; 
             grid-template-columns: 2fr 2fr  ;
             row-gap: 1em ;
             position: relative;
-            margin-bottom: 20px;
+            text-align: center;
+             align-items: center;
             
          
          }
         
          .part8-1{
              background: white;
-             width: 30%;
-             height: 50%;
+      
+             height: 30%;
              text-align: center;
-        font-size: 20px;
-        padding: 10px;
-        margin-top: 20px;
+             align-items: center;
+        font-size: 10px;
+      padding: 10px 10px 0 10px;
+        margin-top: 10px;
         left: 20%;
         font-family: 'Cairo', sans-serif;
        border-radius: 50px;
        position:absolute;
          }
          .part8-2{
-         
          height: auto;
          left:60%;
-       font-size: 20px;
-       padding: 30px;
-         position:absolute;
-       font-family: 'Cairo', sans-serif;
+        font-size: 20px;
+          padding: 30px;
+          position:absolute;
+          font-family: 'Cairo', sans-serif;
   
          }
          .part6-2-info{
@@ -502,10 +531,7 @@ grid-template-columns: 4fr 3fr ;
            
          }
          @media screen and (max-width: 839px) {
-            .part8-1{
-                width: 40%;
-                height: 70%;
-            }
+        
          }
         
          @media screen and (max-width: 600px) {
@@ -521,18 +547,25 @@ grid-template-columns: 4fr 3fr ;
 
 .head{
     color: white;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .imag-head{
     width: 100%;
 }
 .text-mobile-app{
     color: white;
-    padding-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
 }
 .text2-mobile-app{
     color: gray;
-    font-size: 40px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .cont-div-mobile{
     display: grid ; 
@@ -543,21 +576,28 @@ grid-template-columns: 4fr 3fr ;
 
 }
 .logo-mobile{
-    width: 70%;
+    width: 60%;
     height: auto;
    margin-bottom: 5px;
-    margin-left: 90px;
+    margin-left: 80px;
 }
 .div-mobile-info{
     background: white;
     width: 70%;
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 50px;
     font-family: 'Cairo', sans-serif;
     margin-left: 30px;
 
 }
+
+@media screen and (min-width: 839px) {
+
+.part4-1{
+    width: 50%;
+    margin-left: 250px;
+}}
 
 
 
