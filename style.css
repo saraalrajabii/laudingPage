@@ -3,7 +3,7 @@
     padding: 0;
     }
     body{
-   max-width: 1400px;
+   max-width: 1800px;
       margin:  0 auto; 
   
     display: grid; 
@@ -12,6 +12,7 @@
     }
     .container-mobile-app{
         width: 100%;
+        padding-top: 10px;
         background: black;
         margin:  0 auto; 
         padding-bottom: 20px ;
@@ -20,6 +21,7 @@
     }
     
     .container1{
+        padding-top: 10px;
         max-width: 100%;
         height: auto;
         background: black;
@@ -39,7 +41,7 @@
             display: none;
         }
       }
-    @media screen and  (min-width :839px) and (max-width: 1400px){
+    @media screen and  (min-width :839px) and (max-width: 1800px){
         .container-mobile-app{
             display: none;
         }
@@ -51,8 +53,8 @@
     }
     .circle{
       float: left;
-      clip-path:circle(90% at left);
-      clip: rect(0px,70px,50px,0px);
+      clip-path:circle(80% at left);
+    
       width: 100%;
       height: auto;
    
@@ -63,7 +65,7 @@
     text-align: center;
     font-size: 100%; 
     font-weight: bold;
-    margin-left: 50px;
+
     }
 
     .title-des{
@@ -566,6 +568,7 @@ grid-template-columns: 4fr 3fr ;
     text-align: center;
     justify-content: center;
     align-items: center;
+
 }
 .cont-div-mobile{
     display: grid ; 
@@ -578,17 +581,17 @@ grid-template-columns: 4fr 3fr ;
 .logo-mobile{
     width: 60%;
     height: auto;
-   margin-bottom: 5px;
+   margin-bottom: 2px;
     margin-left: 80px;
 }
 .div-mobile-info{
     background: white;
     width: 70%;
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 50px;
     font-family: 'Cairo', sans-serif;
-    margin-left: 30px;
+    margin-left: 40px;
 
 }
 
