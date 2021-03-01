@@ -1,4 +1,12 @@
 
+var Submit = document.querySelector('.button2');
+Submit.addEventListener('click' , function(){
+  console.log("username   "+ document.getElementById("usrname").value +
+  ",  email  "+  document.getElementById("email").value +
+  ",  password  "+  document.getElementById("psw").value +
+  ",  select  "+   document.getElementById("select-box").value 
+  )
+});
 
 window.addEventListener('mouseup', function(event){
   var box = document.getElementsByClassName('modal-outside');
