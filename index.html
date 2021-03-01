@@ -208,18 +208,31 @@
       
       </div>
 
+
       <!-- model form  -->  
   <div class="modal-outside"> 
     <!-- the resone why we need thid out side dive cuse we whant to add little opacity  -->
     <div class="modal">
       <h2> تواصل معنا </h2>
-      <label>Name</label>
-      <input type ="text">
+      <label >Name</label>
+      <input type ="text"  id="usrname" name="usrname" required>
       <label>Email</label>
-      <input type ="email">
-      <label>Phone Number</label>
-      <input type ="text">
-      <button> تواصل </button>
+      <input type ="email"  name="email" required>
+      <label>Password </label>
+     
+      <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+      <div class="outer-selector">
+        <div>
+          <select class="select-box"> 
+            <option> select 1</option>
+            <option> select 2</option>
+            <option> select 3</option>
+          </select>
+        </div>
+
+
+      </div>
+      <input class="button2" type="submit" value="Submit">
       <span class="modal-close">x</span>
     </div>
     </div>

@@ -1,7 +1,10 @@
+
+
 window.addEventListener('mouseup', function(event){
   var box = document.getElementsByClassName('modal-outside');
-  if (event.target != box && event.target.parentNode != box){
-      modalOutside.classList.remove('active');
+  if (event.target != box && event.target.classList != box){
+      // modalOutside.classList.remove('active');
+       box.style.display = 'none';
     }
 }); 
 
