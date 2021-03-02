@@ -213,7 +213,8 @@
     <!-- the resone why we need thid out side dive cuse we whant to add little opacity  -->
     <div class="modal">
       <form class="form">
-      <h2> تواصل معنا ! </h2>
+        <form  class="form" name="myform" novalidate>
+      <h2> !تواصل معنا هنا  </h2>
     
       <br>  <label >Name</label>
       <input type ="text"  id="usrname" name="usrname"  value=""  maxlength="22" required>
@@ -221,21 +222,31 @@
       <input type ="email"  name="email" id="email"  value="" required>
       <br><br><label>Password </label>
       <input type="password" id="psw" name="psw" value="" required>
+
+      <!-- /////////////////////////////// -->
+
+      <div class="container-selector">
+        <span class="choose">How do you want to contact:</span>
+          <div class="dropdown" >
+            <div id="select" >
+              <span id="select1" value="" >Select One</span>
+              <i class="fa fa-chevron-left"></i>
+            </div>
+            <input type="hidden" >
+            <ul class="dropdown-menu">
+              <li id="Whatsapp">Whatsapp</li>
+              <li id="Email">Email</li>
+            </ul>
+          </div>
       <br>
-      <div class="outer-selector">
-          <select  class=".menu" id="select-box" data-target="#connect" data-check="connect"> 
-            <option> how do you want to connect  </option>
-            <option> whatsapp</option>
-            <option value="connect"> email</option>
-          </select>
-        </div>
-        <br> 
-        <div   class="added-option" id="connect" >
-          <input type ="text"   value="" required placeholder="phone number">
-          <br> 
-          <input type ="email"  value="" required placeholder="email">
-        </div>
-       
+      <br>
+      <span class="msg" ></span>
+    </div>
+    
+
+
+      <!-- /////////////////////////////// -->
+
       <!-- <input class="button2" type="submit" value="Submit"> -->
       <br>  <button  class="button2" type="submit" value="Submit">connect </button>
       <span class="modal-close">x</span>
