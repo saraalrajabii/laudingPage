@@ -695,9 +695,9 @@ justify-content: center;
 }
 .select-box select{
 padding: 10px;
-
-
-
+}
+.added-option{
+    display: none;
 }
 
 

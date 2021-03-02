@@ -209,28 +209,35 @@
 
 
       <!-- model form  -->  
-  <div class="modal-outside"> 
+  <div class="modal-outside" > 
     <!-- the resone why we need thid out side dive cuse we whant to add little opacity  -->
     <div class="modal">
       <form class="form">
       <h2> تواصل معنا ! </h2>
     
       <br>  <label >Name</label>
-      <input type ="text" اصل معن id="usrname" name="usrname"  value="" required>
+      <input type ="text"  id="usrname" name="usrname"  value=""  maxlength="22" required>
       <br><br> <label>Email</label>
       <input type ="email"  name="email" id="email"  value="" required>
       <br><br><label>Password </label>
       <input type="password" id="psw" name="psw" value="" required>
-      <br><div class="outer-selector">
-          <select id="select-box" required > 
+      <br>
+      <div class="outer-selector">
+          <select  class=".menu" id="select-box" data-target="#connect" data-check="connect"> 
             <option> how do you want to connect  </option>
             <option> whatsapp</option>
-            <option> email</option>
-       
+            <option value="connect"> email</option>
           </select>
         </div>
+        <br> 
+        <div   class="added-option" id="connect" >
+          <input type ="text"   value="" required placeholder="phone number">
+          <br> 
+          <input type ="email"  value="" required placeholder="email">
+        </div>
+       
       <!-- <input class="button2" type="submit" value="Submit"> -->
-      <button  class="button2" type="submit" value="Submit">connect </button>
+      <br>  <button  class="button2" type="submit" value="Submit">connect </button>
       <span class="modal-close">x</span>
     </form>
     </div>
@@ -240,6 +247,7 @@
 
 
   </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
  <script src="app.js"></script>
 </body>
 </html>
